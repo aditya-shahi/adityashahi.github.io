@@ -283,7 +283,9 @@
 		
 	</section> <!-- /features -->
 
-		<!-- CTA Section
+
+
+	<!-- CTA Section
    ================================================== -->
 	<section id="cta" class="grey-section">
 
@@ -291,14 +293,14 @@
 
    		<div class="col-twelve section-ads">  
 
-	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">For initiating a transaction please click the button below</a></h2>
+	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">For my Freelance Projects visit my Git repository.</a></h2>
 
 		      <p class="lead">
-		      Pay me here.	
+		      Visit my git repository for more.	
 				</p>
 
 				<div class="action">
-			      <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Pay me</a>
+			      <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Git Repository</a>
 		      </div>		     	
 
    		</div>
@@ -425,11 +427,34 @@
 		
 	</section> <!-- /services -->	
 
+
+		<!-- CTA Section
+   ================================================== -->
+	<section id="cta" class="grey-section">
+
+   	<div class="row cta-content">
+
+   		<div class="col-twelve section-ads">  
+
+	     		<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">For initiating a transaction please click the button below</a></h2>
+
+		      <p class="lead">
+		      Pay me here.	
+				</p>
+
+				<div class="action">
+			      <a class="button button-primary large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Pay me</a>
+		      </div>		     	
+
+   		</div>
+
+   	</div> <!-- /cta-content -->
+
+   </section> <!-- /cta --> 
+
 	
    <!-- contact
    ================================================== -->
-
-
 	<section id="contact">
 
 		<div class="row section-intro">
@@ -442,6 +467,53 @@
 
    		</div> 
    	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
 
    	<div class="row contact-info">
 
